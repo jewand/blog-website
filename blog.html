@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>My Awesome Blog</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="blog" class="blog-section">
+            <article>
+                <h2>Blog Post 1</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris fringilla, justo in dapibus ultricies, metus mi blandit dolor, ut luctus sapien felis et massa.</p>
+                <p>Aliquam erat volutpat. Integer vitae sem ac magna mattis viverra vel eget risus.</p>
+            </article>
+
+            <article>
+                <h2>Blog Post 2</h2>
+                <p>Proin at tortor vitae elit ultrices tincidunt. Sed viverra quam sed lorem accumsan, eget fermentum nisl vulputate.</p>
+                <p>Nunc dignissim mi id ligula feugiat, sit amet tincidunt turpis suscipit.</p>
+            </article>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <h2>Contact Me</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject">
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>StudentID: 12345678 &copy; 2025</p>
+    </footer>
+
+</body>
+</html>
